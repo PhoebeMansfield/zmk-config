@@ -123,8 +123,8 @@
             display-name = "Gam";
             bindings = <
                            &kp Q      &kp W       &kp E           &kp R        &kp ESC        &kp N7          &kp N8       &kp N9
-                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp TAB        &kp N4    &kp N5 &kp N6 &trans
-                &kp LCTRL      &kp Z      &kp X       &kp C                                     &kp N1          &kp N2       &kp 3N  &kp N0
+                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp TAB        &kp N4          &kp N5       &kp N6  &trans
+                &kp LCTRL      &kp Z      &kp X       &kp C                                   &kp N1          &kp N2       &kp N3  &kp N0
                                                   &kp SPACE &kp LALT      &lt SYM ENTER  &lt NUM BSPC
             >;
         };
