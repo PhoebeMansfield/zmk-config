@@ -82,10 +82,10 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-                           &kp LS(N7) &kp LS(N8)  &kp LS(N9)    &kp RBRT       &trans       &trans         &trans      &trans
-                &kp LBRT   &kp LS(N4) &kp LS(N5)  &kp LS(N6)    &kp PLUS       &trans       &trans         &trans      &trans     &trans
-                &kp COLON  &kp LS(N1) &kp LS(N2)  &kp LS(N3)                                &trans         &trans      &trans     &trans
-                                                  &lt NAV LS(N0) &lt MSE UNDER     &trans       &trans
+                           &kp N7 &kp N8  &kp N9    &kp RBRT       &trans       &trans         &trans      &trans
+                &kp LBRT   &kp N4 &kp N5  &kp N6    &kp PLUS       &trans       &trans         &trans      &trans     &trans
+                &kp COLON  &kp N1 &kp N2  &kp N3                                &trans         &trans      &trans     &trans
+                                                  &lt NAV N0 &lt MSE UNDER     &trans       &trans
             >;
         };
 
