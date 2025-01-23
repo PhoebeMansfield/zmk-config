@@ -1,0 +1,6 @@
+if SHIELD_HWTERN
+
+config ZMK_KEYBOARD_NAME
+    default "HWTern"
+
+endif

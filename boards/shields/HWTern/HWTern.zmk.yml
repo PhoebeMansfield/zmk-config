@@ -1,0 +1,7 @@
+file_format: "1"
+id: tern
+name: Tern
+type: shield
+url: https://gitlab.com/gleb_sexy/tern-ble
+requires: [seeed_xiao]
+features: keys
