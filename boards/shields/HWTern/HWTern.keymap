@@ -83,7 +83,7 @@
             display-name = "Sym";
             bindings = <
                            &kp LS(N7)     &kp LS(N8)      &kp LS(N9)        &kp RBRC       &trans       &trans         &trans      &trans
-                &kp LBRC   &kp LS(N4)     &kp LS(N5)      &kp LS(N6)        &kp PLUS      &trans       &trans         &trans      &trans     &trans
+                &kp LBRC   &kp LS(N4)     &kp LS(N5)      &kp LS(N6)        &kp PLUS      &trans       &trans         &trans      &trans     &tog 6
                 &kp COLON   &kp LS(N1)     &kp LS(N2)      &kp LS(N3)                                    &trans         &trans      &trans     &trans
                                                   &lt NAV LS(N0) &lt MSE UNDER     &trans       &trans
             >;
@@ -123,7 +123,7 @@
             display-name = "Gam";
             bindings = <
                            &kp Q      &kp W       &kp E           &kp R        &kp ESC        &kp N7          &kp N8       &kp N9
-                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp TAB        &kp N4          &kp N5       &kp N6  &trans
+                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp TAB        &kp N4          &kp N5       &kp N6  &tog 6
                 &kp LCTRL      &kp Z      &kp X       &kp C                                   &kp N1          &kp N2       &kp N3  &kp N0
                                                   &kp SPACE &kp LALT      &lt SYM ENTER  &lt NUM BSPC
             >;
