@@ -3,10 +3,4 @@ if SHIELD_HWTERN
 config ZMK_KEYBOARD_NAME
     default "HWTern"
 
-config ZMK_BLE
-    default y
-
-config ZMK_USB
-    default n
-
 endif
