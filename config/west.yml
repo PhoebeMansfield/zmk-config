@@ -6,7 +6,11 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
+<<<<<<< HEAD
       remote: zmkfirmware 
+=======
+      remote: zephyrproject-rtos
+>>>>>>> 561998c3581381e4bea1c3f88d91c8edd9ae9d6c
       revision: main
       import: app/west.yml
   self:
