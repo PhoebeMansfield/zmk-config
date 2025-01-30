@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: xiao_esp32c3
+  - board: seeeduino_xiao_ble
     shield: HWTern
