@@ -3,5 +3,5 @@ id: tern
 name: Tern
 type: shield
 url: https://gitlab.com/gleb_sexy/tern-ble
-requires: [seeed_xiao]
+requires: [seeeduino_xiao_ble]
 features: keys
