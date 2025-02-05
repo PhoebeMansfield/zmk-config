@@ -64,11 +64,11 @@
         default_layer {
             bindings = <
                            &kp W      &kp L       &kp Y           &kp P        &kp K        &kp O          &kp U       &kp APOS
-                // &hm LGUI C &hm LALT R &hm LCTRL S &hm LSHFT T     &kp B        &kp F        &hm RSHFT N    &hm RCTRL E &hm LALT I &hm RGUI A
-                &kp C   &kp R     &kp S      &kp T        &kp B      &kp F       &kp N         &kp E      &kp I     &kp A
+                &hm LGUI C &hm LALT R &hm LCTRL S &hm LSHFT T     &kp B        &kp F        &hm RSHFT N    &hm RCTRL E &hm LALT I &hm RGUI A
+                //&kp C   &kp R     &kp S      &kp T        &kp B      &kp F       &kp N         &kp E      &kp I     &kp A
                 &kp J      &kp V      &kp D       &kp G                                     &kp M          &kp H       &kp COMMA  &kp DOT
-                                                  //&lt NAV SPACE &lt MSE TAB      &lt SYM ENTER  &lt NUM BSPC
-                                                  &kp SPACE &kp TAB      &kp ENTER  &kp BSPC
+                                                  &lt NAV SPACE &lt MSE TAB      &lt SYM ENTER  &lt NUM BSPC
+                                                  //&kp SPACE &kp TAB      &kp ENTER  &kp BSPC
             >;
         };
 
@@ -125,9 +125,9 @@
         gam_layer {
             display-name = "Gam";
             bindings = <
-                           &kp Q      &kp W       &kp E           &kp R        &kp ESC        &kp N7          &kp N8       &kp N9
-                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp TAB        &kp N4          &kp N5       &kp N6  &tog 6
-                &kp LCTRL      &kp Z      &kp X       &kp C                                   &kp N1          &kp N2       &kp N3  &kp N0
+                           &kp Q      &kp W       &kp E           &kp R        &kp T        &kp Y          &kp U       &kp I
+                &kp LSHIFT &kp A      &kp S       &kp D           &kp F        &kp G        &kp H          &kp J       &kp K  &tog 6
+                &kp P      &kp Z      &kp X       &kp C                                   &kp B          &kp N       &kp M  &kp O
                                                   &kp SPACE &kp LALT      &lt SYM ENTER  &lt NUM BSPC
             >;
         };
